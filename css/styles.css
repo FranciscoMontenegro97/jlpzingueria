@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic-structure {
+  background: blue;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.t1 {
+  width: 100%;
+  background: green;
+}
+.t1 h1 {
+  font-family: "Arial", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.t2 {
+  width: 80%;
+  background: lightblue;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+.basic-structure{
+  background: blue;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.t1{
+  width: 100%;
+  background: green;
+
+  h1 {
+    font-family: 'Arial', sans-serif; // Fuente para el encabezado
+    color: white;
+    text-align: center;
+  }
+}
+
+.t2{
+  width: 80%;
+  background: lightblue;
+  text-align: center;
+}
+
+
