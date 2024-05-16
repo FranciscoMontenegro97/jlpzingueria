@@ -1,5 +1,15 @@
-$primary: red;
-$secondary: blue;
-$white: #f5f5f5f5;
-$dark: #0d0f0f;
+@font-face {
+  font-family: 'FontinSans';
+  src: url('../../assets/fontin-sans/Fontin_Sans_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+:root {
+  --primary: #d43a3a;
+  --secondary: blue;
+  --white: #f5f5f5f5;
+  --dark: #0d0f0f;
+  --gray: #d3d6dd;
+  --principal-font: 'FontinSans', sans-serif;
+}

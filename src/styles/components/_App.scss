@@ -1,5 +1,5 @@
-.basic-structure{
-  background: blue;
+.basic-structure {
+  background: var(--primary);
   width: 80vw;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.t1{
+.t1 {
   width: 100%;
   background: green;
 
@@ -18,10 +18,8 @@
   }
 }
 
-.t2{
+.t2 {
   width: 80%;
   background: lightblue;
   text-align: center;
 }
-
-
