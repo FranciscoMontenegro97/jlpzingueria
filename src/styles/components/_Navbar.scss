@@ -1,0 +1,78 @@
+.Navbar-container {
+  width: 95%;
+  height: 35vh;
+  background: var(--primary);
+  position: sticky;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .Img-container {
+    //background: lightblue;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 35vh;
+      width: 25vw;
+    }
+  }
+
+  .Anchor-container {
+    //background: purple;
+    width: 60%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    ul {
+      //background: lightgreen;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+
+      button {
+        outline: none;
+        height: 40px;
+        text-align: center;
+        width: 140px;
+        border-radius: 30px;
+        background: var(--primary);
+        border: 2px solid var(--white);
+        color: var(--white);
+        letter-spacing: 1px;
+        text-shadow: 0;
+        cursor: pointer;
+        transition: all 0.25s ease;
+
+        a {
+          text-decoration: none;
+          font-size: 2.5vh;
+          font-weight: 500;
+          font-family: var(--principal-font);
+          color: var(--white);
+          transition: color 0.25s ease;
+        }
+
+        &:hover {
+          background: var(--white);
+          color: var(--primary);
+
+          a {
+            color: var(--primary);
+          }
+        }
+      }
+
+    }
+  }
+}
